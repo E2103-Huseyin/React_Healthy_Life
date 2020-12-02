@@ -1,0 +1,14 @@
+
+.Maincontainer {
+  background-color: rgb(250, 248, 248);
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  background-image: url("https://images.pexels.com/photos/1300972/pexels-photo-1300972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 100%;
+  /* margin:10px; */
+}

@@ -1,9 +1,18 @@
 import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './Components/NavBar'
+import Main from './Components/Main'
+import MainContainer from './Components/MainDiv/MainContainer'
 
 function App() {
+  {console.log(process.env)}
   return (
+    
     <div className="App">
+      <NavBar/>
+      <MainContainer/>
+      <Main/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
